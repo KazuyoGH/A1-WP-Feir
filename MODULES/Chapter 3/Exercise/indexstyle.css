@@ -1,0 +1,17 @@
+/* Changes the filters for the dragonfly image.*/
+#dragonfly {
+    filter: brightness(1.2);
+    filter: saturate(150%);
+}
+
+/* Changes the filter for the present image.*/
+#present {
+    filter: sepia(50%);
+    filter: opacity(75%);
+}
+
+/* Changes the filter for the water image.*/
+#water {
+    filter:blur(2px);
+    filter: contrast(150%);
+}

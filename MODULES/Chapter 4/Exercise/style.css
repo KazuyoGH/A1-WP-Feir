@@ -1,0 +1,104 @@
+/* This changes the whole website's font to Arial.*/
+body {
+    font-family: Arial;
+}
+
+/* This changes the title's properties of font, size, color, and design.*/
+#title { 
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 55px;
+    color: white;
+    text-decoration-line: underline;
+    letter-spacing: -0.5;
+}
+
+/* This changes the style of the links in the navigation bar.*/
+nav a {
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* This changes the properties of the overall header.*/
+header {
+    text-align: center;
+    background-color: #17072b;
+    padding: 15px;
+}
+
+/* This changes the header of the welcome message, emphasizing it with size and spacing.*/
+#welcome {
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    letter-spacing: -0.5;
+}
+
+/* Similar to welcome, but changes the text color to white in contrast to the blue background.*/
+#lineup {
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+    letter-spacing: -0.5;
+}
+
+/* This changes the format to match with a list-styled text.*/
+#listing {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+/* This changes the format of the elements inside by allowing other elements outside to be on the same line horizonatally.*/
+main {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* This sets the position of the elements through flex to have more space.*/
+article {
+    flex: 2;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* This sets the properties to match a block of text.*/
+section {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* This sets the position of the elements through flex to have some space compared to article.*/
+aside {
+    flex: 1;
+    color: white;
+    background-color: #172d67;
+    padding-left: 30px;
+}
+
+/* This allows the images within this element to be on the same line horizontally.*/
+.double {
+    display: flex;
+}
+
+/* This puts on some space for the images.*/
+#double {
+    padding: 10px;
+}
+
+/* This sets the properties of the footer of the webpage, such a size and color.*/
+footer {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    background-color: #8c15e9;
+    color: white;
+}
+
+

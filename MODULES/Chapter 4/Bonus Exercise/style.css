@@ -1,0 +1,176 @@
+/* This sets the font for the whole webpage.*/
+body {
+    font-family: Calibri;
+}
+
+/* This creates a flex container that holds the user profile picture and name.*/
+.user {
+    display: flex;
+    align-items: center;
+}
+
+/* This holds the positioning and padding of the profile icon.*/
+#pfp {
+    padding-left: 15px;
+    padding-top: 15px;
+    align-self: auto;
+}
+
+/* This holds the properties for the name of the user, such as position and size.*/
+#name {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: 600;
+    flex: 70%;
+    font-size: 15px;
+    
+}
+
+/* This holds the color and layout of the sidebar.*/
+aside {
+    background-color: #F3D0D7;
+    flex: 15%;
+}
+
+/* The navigation bar holds custom placement via padding.*/
+nav {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+/* Within the navigation bar, every item is padded to have space above.*/
+nav p {
+    padding-top: 10px;
+}
+
+/* The bottom side of the sidebar options are padded to allow space above it.*/
+.bottomside {
+    padding-top: 600px;
+    padding-left: 15px; 
+}
+
+/* The bottomside's lines have smaller margins to allow for space.*/
+.bottomside p {
+    margin: 5px 0;
+}
+
+/* This div handles all the elements on the right side of the webpage/flexbox.*/
+.right {
+    background-color: #F0EBE3;
+    flex: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* This creates a flexbox for all the main elements on the right.*/
+.main {
+    display: flex;
+}
+
+/* This has the properties for the greeting message's position and size.*/
+#greeting {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+/* This creates the "Add reminder" field.*/
+.add {
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 175px;
+    font-style: italic;
+    background-color: #dedede;
+    width: max-content;
+}
+
+/* This is the formatting for the whole header.*/
+header {
+    background-color: #F0EBE3;
+    flex: 15%;
+    padding-bottom: 15px;
+}
+
+/* The main element creates a flexbox for all the items it will contain.*/
+main {
+    flex: 85%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+/* This div holds both the weekly and monthly schedules.*/
+.schedules {
+    flex: 60%;
+    text-align: center;
+}
+
+/* This div holds both the daily tasks and timer.*/
+.todaytimer {
+    flex: 40%;
+    text-align: center;
+}
+
+/* This changes the properties of the schedule for today.*/
+.today {
+    background-color: #F3D0D7;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* This changes the formatting of the schedule for weekly.*/
+.weekly {
+    background-color:#F3D0D7 ;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+/* This changes the color and location of the schedule for monthly.*/
+.monthly {
+    background-color: #F3D0D7;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+/* This holds the color and text size of the timer.*/
+.timer {
+    background-color: rgb(149, 196, 215);
+    font-size: 50px;
+}
+
+/* This holds all the custom design for the start timer button.*/
+#starttimer {
+    background-color: rgb(149, 196, 215);
+    margin-top: 5px 0px;
+    width: 80px;
+}
+
+/* This holds the space below the time text.*/
+#time {
+    margin-bottom: 5px;
+}
+
+/* The footer has custom color and text alignment.*/
+footer {
+    background-color: antiquewhite;
+    text-align: center;
+}
+ 
+/* The paragraph lines inside footer will have no footer on the top and bottom.*/
+footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
