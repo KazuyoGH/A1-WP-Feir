@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="One-Page(Style).css" type="text/css">
+</head>
+<body>
+    <!-- This creates a div where it has class that holds the navigation bar of our website.-->
+    <div class="menu">
+        <!-- The "a" are links that take you to a different position of the page, depending on where the content is.-->
+        <a class="active" href="#gamename"> Home </a>
+        <a href="#headerplot"> Plot </a>
+        <a href="#headerinformation"> Information </a>
+        <a href="#headercast"> Cast </a>
+        <a href="#headercharacters"> Characters </a>
+        <a href="#headerreviews"> Reviews </a>
+    </div>
+
+    <!-- This displays the name of the selected video game, while also assigning an ID.-->
+    <h1 id="gamename">Danganronpa</h1>
+
+    <!-- This div holds the button and is classed under "button".-->
+    <div class="button">
+        <!-- This "a" link holds a URL link to the download page of the selected game, once clicked, the user is sent to a new tab of that page.-->
+        <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/" target="_blank"> Download Danganronpa: Trigger Happy Havoc</a>
+    </div>
+
+    <!-- To keep the consistency of style, all sections of the website have a class.-->
+    <div class="section">
+        <!-- The header has an ID to seperate the style it has from the rest of the text.-->
+        <h2 id="headerplot">Overview of Plot</h2>
+        <p>The player controls a high school student named Makoto Naegi. 
+            Makoto is invited to a school called Hope's Peak Academy along 
+            with 14 other students. Hope's Peak Academy is led by a robot 
+            bear named Monokuma. Monokuma tells the students that they are 
+            trapped inside the school, and that only way to leave the school 
+            is by killing another student. Throughout the game, Makoto and 
+            the other students must solve various murders that happen inside 
+            the school.
+        </p>
+    </div>
+    
+    <div class="section">
+        <h2 id="headerinformation">Key Information</h2>
+        <p>Danganronpa: Trigger Happy Havoc is a visual novel adventure game 
+            developed and published by Spike. The first installment in the 
+            Danganronpa series, it was originally released for the PlayStation 
+            Portable in Japan in November 2010. It was ported to Android and 
+            iOS in August 2012. NIS America localized and published the game 
+            internationally on PlayStation consoles. The game produced several 
+            adaptions and spin-offs: an anime television series, a stage show, 
+            two manga, and two novels.</p>
+    </div>
+
+    <!-- This section has a list, so we have to create a seperate class to support the new formatting.-->
+    <div class="sectionlist">
+        <h2 id="headercast">Cast</h2>
+        <!-- "ul" is used to create an Unordered List.-->
+        <ul>
+            <!-- Every "li" represents an item in the unordered list.-->
+            <li>Megumi Ogata as Makoto Naegi.</li>
+            <li>Makiko Ōmoto as Sayaka Maizono.</li>
+            <li>Yōko Hikasa as Kiyoko Kirigiri.</li>
+            <li>Megumi Toyoguchi as Junko Enoshima.</li>
+            <li>Chiwa Saitō as Aoi Asahina.</li>
+            <li>Kujira as Sakura Ogami.</li>
+            <li>Kōki Miyata as Chihiro Fujisaki.</li>
+            <li>Hekiru Shiina as Celestia Ludenberg.</li>
+            <li>Masaya Matsukaze as Yasuhiro Hagakure.</li>
+            <li>Akira Ishida as Byakuya Togami.</li>
+            <li>Miyuki Sawashiro as Toko Fukawa.</li>
+            <li>Kappei Yamaguchi as Hifumi Yamada.</li>
+            <li>Kōsuke Toriumi as Kiyotaka Ishimaru.</li>
+            <li>Kazuya Nakai as Mondo Owada.</li>
+            <li>Takahiro Sakura as Leon Kuwata.</li>
+            <li>Nobuyo Ōyama as Monokuma.</li>
+        </ul>
+    </div>
+
+    <div class="sectionlist">
+        <h2 id="headercharacters">Characters</h2>
+        <ul>
+            <li>Makoto Naegi, Ultimate Lucky Student.</li>
+            <li>Sayaka Maizono, Ultimate Pop Sensation</li>
+            <li>Kiyoko Kirigiri, Ultimate Detective</li>
+            <li>Junko Enoshima, Ultimate Fashionista.</li>
+            <li>Aoi Asahina, Ultimate Swimming Pro.</li>
+            <li>Sakura Ogami, Ultimate Martial Artist.</li>
+            <li>Chihiro Fujisaki, Ultimate Programmer.</li>
+            <li>Celestia Ludenberg, Ultimate Gambler.</li>
+            <li>Yasuhiro Hagakure, Ultimate Clairvoyant.</li>
+            <li>Byakuya Togami, Ultimate Affluent Progeny.</li>
+            <li>Toko Fukawa, Ultimate Writing Prodigy.</li>
+            <li>Hifumi Yamada, Ultimate Fanfic Author.</li>
+            <li>Kiyotaka Ishimaru, Ultimate Moral Compass.</li>
+            <li>Mondo Owada, Ultimate Biker Gang Leader.</li>
+            <li>Leon Kuwata, Ultimate Baseball Star.</li>
+            <li>Monokuma: The headmaster of Hope's Peak Academy.</li>
+        </ul>
+    </div>
+
+    <!-- This section features reviews, so again, we have to change the class to change the format.-->
+    <div class="sectionreview">
+        <h2 id="headerreviews">Reviews</h2>
+        <!-- By using H3, the name of the review is emphasized more than the review itself.-->
+        <h3><i>From BigYeedus on Playsation Vita:</i></h3>
+        <p>Absolutely bonkers from start to finish. The mystery solving is pretty 
+            fun. Soundtrack full of bangers. Sometimes crosses a certain line of 
+            taste and has a very particular sense of humor. If you can get on its 
+            wavelength, you won't regret it.
+        </p>
+
+        <h3><i>From Twinfinite on PC:</i></h3>
+        <p>Don’t be turned away by its linearity, Danganronpa: Trigger Happy Havoc 
+            is one of the best visual novels you’ll play.
+        </p>
+
+        <h3><i>From Metro GameCentral on PC:</i></h3>
+        <p>Don’t let the name or presentation put you off: this is an impressive 
+            piece of interactive storytelling that gets more right than most other 
+            games with 10 times its budget.
+        </p>
+    </div>
+
+    
+</body>
+</html>
